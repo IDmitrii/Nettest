@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirebaseActivity">
+
+    <Button
+        android:id="@+id/btnFbSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Send msg to Firebase"></Button>
+    <Button
+        android:id="@+id/btnFbSend2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFbSend"
+        android:layout_margin="10dp"
+
+        android:text="Send msg to Firebase, again."></Button>
+    <Button
+        android:id="@+id/btnFbSend3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFbSend2"
+        android:layout_margin="10dp"
+
+        android:text="Send msg to Firebase, 3."></Button>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnFbSend3"
+        android:id="@+id/lvFb"
+        android:layout_margin="10dp"
+        >
+
+
+
+    </ListView>
+
+
+</RelativeLayout>
